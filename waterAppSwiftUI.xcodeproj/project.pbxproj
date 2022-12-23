@@ -7,13 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		56724A2F2955E50D0004FA0D /* waterAppWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56724A2E2955E50D0004FA0D /* waterAppWatchApp.swift */; };
+		56724A312955E50D0004FA0D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56724A302955E50D0004FA0D /* ContentView.swift */; };
+		56724A332955E50E0004FA0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56724A322955E50E0004FA0D /* Assets.xcassets */; };
+		56724A362955E50E0004FA0D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56724A352955E50E0004FA0D /* Preview Assets.xcassets */; };
+		56724A402955E50E0004FA0D /* waterAppWatch_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56724A3F2955E50E0004FA0D /* waterAppWatch_Watch_AppTests.swift */; };
+		56724A4A2955E50E0004FA0D /* waterAppWatch_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56724A492955E50E0004FA0D /* waterAppWatch_Watch_AppUITests.swift */; };
+		56724A4C2955E50E0004FA0D /* waterAppWatch_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56724A4B2955E50E0004FA0D /* waterAppWatch_Watch_AppUITestsLaunchTests.swift */; };
 		56ED903B29521019002E8B4C /* waterAppSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56ED903A29521019002E8B4C /* waterAppSwiftUIApp.swift */; };
 		56ED903D29521019002E8B4C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56ED903C29521019002E8B4C /* ContentView.swift */; };
 		56ED903F2952101A002E8B4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56ED903E2952101A002E8B4C /* Assets.xcassets */; };
 		56ED90422952101A002E8B4C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56ED90412952101A002E8B4C /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		56724A3C2955E50E0004FA0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56ED902F29521019002E8B4C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56724A2B2955E50D0004FA0D;
+			remoteInfo = "waterAppWatch Watch App";
+		};
+		56724A462955E50E0004FA0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56ED902F29521019002E8B4C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56724A2B2955E50D0004FA0D;
+			remoteInfo = "waterAppWatch Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		56724A2C2955E50D0004FA0D /* waterAppWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "waterAppWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		56724A2E2955E50D0004FA0D /* waterAppWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = waterAppWatchApp.swift; sourceTree = "<group>"; };
+		56724A302955E50D0004FA0D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		56724A322955E50E0004FA0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		56724A352955E50E0004FA0D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		56724A3B2955E50E0004FA0D /* waterAppWatch Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "waterAppWatch Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		56724A3F2955E50E0004FA0D /* waterAppWatch_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = waterAppWatch_Watch_AppTests.swift; sourceTree = "<group>"; };
+		56724A452955E50E0004FA0D /* waterAppWatch Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "waterAppWatch Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		56724A492955E50E0004FA0D /* waterAppWatch_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = waterAppWatch_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		56724A4B2955E50E0004FA0D /* waterAppWatch_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = waterAppWatch_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		56ED903729521019002E8B4C /* waterAppSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = waterAppSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56ED903A29521019002E8B4C /* waterAppSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = waterAppSwiftUIApp.swift; sourceTree = "<group>"; };
 		56ED903C29521019002E8B4C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -22,6 +56,27 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		56724A292955E50D0004FA0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56724A382955E50E0004FA0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56724A422955E50E0004FA0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		56ED903429521019002E8B4C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -32,10 +87,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		56724A2D2955E50D0004FA0D /* waterAppWatch Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				56724A2E2955E50D0004FA0D /* waterAppWatchApp.swift */,
+				56724A302955E50D0004FA0D /* ContentView.swift */,
+				56724A322955E50E0004FA0D /* Assets.xcassets */,
+				56724A342955E50E0004FA0D /* Preview Content */,
+			);
+			path = "waterAppWatch Watch App";
+			sourceTree = "<group>";
+		};
+		56724A342955E50E0004FA0D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				56724A352955E50E0004FA0D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		56724A3E2955E50E0004FA0D /* waterAppWatch Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				56724A3F2955E50E0004FA0D /* waterAppWatch_Watch_AppTests.swift */,
+			);
+			path = "waterAppWatch Watch AppTests";
+			sourceTree = "<group>";
+		};
+		56724A482955E50E0004FA0D /* waterAppWatch Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				56724A492955E50E0004FA0D /* waterAppWatch_Watch_AppUITests.swift */,
+				56724A4B2955E50E0004FA0D /* waterAppWatch_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "waterAppWatch Watch AppUITests";
+			sourceTree = "<group>";
+		};
 		56ED902E29521019002E8B4C = {
 			isa = PBXGroup;
 			children = (
 				56ED903929521019002E8B4C /* waterAppSwiftUI */,
+				56724A2D2955E50D0004FA0D /* waterAppWatch Watch App */,
+				56724A3E2955E50E0004FA0D /* waterAppWatch Watch AppTests */,
+				56724A482955E50E0004FA0D /* waterAppWatch Watch AppUITests */,
 				56ED903829521019002E8B4C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +138,9 @@
 			isa = PBXGroup;
 			children = (
 				56ED903729521019002E8B4C /* waterAppSwiftUI.app */,
+				56724A2C2955E50D0004FA0D /* waterAppWatch Watch App.app */,
+				56724A3B2955E50E0004FA0D /* waterAppWatch Watch AppTests.xctest */,
+				56724A452955E50E0004FA0D /* waterAppWatch Watch AppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,6 +167,59 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		56724A2B2955E50D0004FA0D /* waterAppWatch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56724A532955E50E0004FA0D /* Build configuration list for PBXNativeTarget "waterAppWatch Watch App" */;
+			buildPhases = (
+				56724A282955E50D0004FA0D /* Sources */,
+				56724A292955E50D0004FA0D /* Frameworks */,
+				56724A2A2955E50D0004FA0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "waterAppWatch Watch App";
+			productName = "waterAppWatch Watch App";
+			productReference = 56724A2C2955E50D0004FA0D /* waterAppWatch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		56724A3A2955E50E0004FA0D /* waterAppWatch Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56724A542955E50E0004FA0D /* Build configuration list for PBXNativeTarget "waterAppWatch Watch AppTests" */;
+			buildPhases = (
+				56724A372955E50E0004FA0D /* Sources */,
+				56724A382955E50E0004FA0D /* Frameworks */,
+				56724A392955E50E0004FA0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56724A3D2955E50E0004FA0D /* PBXTargetDependency */,
+			);
+			name = "waterAppWatch Watch AppTests";
+			productName = "waterAppWatch Watch AppTests";
+			productReference = 56724A3B2955E50E0004FA0D /* waterAppWatch Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		56724A442955E50E0004FA0D /* waterAppWatch Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56724A552955E50E0004FA0D /* Build configuration list for PBXNativeTarget "waterAppWatch Watch AppUITests" */;
+			buildPhases = (
+				56724A412955E50E0004FA0D /* Sources */,
+				56724A422955E50E0004FA0D /* Frameworks */,
+				56724A432955E50E0004FA0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56724A472955E50E0004FA0D /* PBXTargetDependency */,
+			);
+			name = "waterAppWatch Watch AppUITests";
+			productName = "waterAppWatch Watch AppUITests";
+			productReference = 56724A452955E50E0004FA0D /* waterAppWatch Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		56ED903629521019002E8B4C /* waterAppSwiftUI */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 56ED90452952101A002E8B4C /* Build configuration list for PBXNativeTarget "waterAppSwiftUI" */;
@@ -97,6 +247,17 @@
 				LastSwiftUpdateCheck = 1410;
 				LastUpgradeCheck = 1410;
 				TargetAttributes = {
+					56724A2B2955E50D0004FA0D = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					56724A3A2955E50E0004FA0D = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 56724A2B2955E50D0004FA0D;
+					};
+					56724A442955E50E0004FA0D = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 56724A2B2955E50D0004FA0D;
+					};
 					56ED903629521019002E8B4C = {
 						CreatedOnToolsVersion = 14.1;
 					};
@@ -116,11 +277,37 @@
 			projectRoot = "";
 			targets = (
 				56ED903629521019002E8B4C /* waterAppSwiftUI */,
+				56724A2B2955E50D0004FA0D /* waterAppWatch Watch App */,
+				56724A3A2955E50E0004FA0D /* waterAppWatch Watch AppTests */,
+				56724A442955E50E0004FA0D /* waterAppWatch Watch AppUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		56724A2A2955E50D0004FA0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56724A362955E50E0004FA0D /* Preview Assets.xcassets in Resources */,
+				56724A332955E50E0004FA0D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56724A392955E50E0004FA0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56724A432955E50E0004FA0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		56ED903529521019002E8B4C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -133,6 +320,32 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		56724A282955E50D0004FA0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56724A312955E50D0004FA0D /* ContentView.swift in Sources */,
+				56724A2F2955E50D0004FA0D /* waterAppWatchApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56724A372955E50E0004FA0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56724A402955E50E0004FA0D /* waterAppWatch_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56724A412955E50E0004FA0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56724A4C2955E50E0004FA0D /* waterAppWatch_Watch_AppUITestsLaunchTests.swift in Sources */,
+				56724A4A2955E50E0004FA0D /* waterAppWatch_Watch_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		56ED903329521019002E8B4C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -144,7 +357,156 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		56724A3D2955E50E0004FA0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 56724A2B2955E50D0004FA0D /* waterAppWatch Watch App */;
+			targetProxy = 56724A3C2955E50E0004FA0D /* PBXContainerItemProxy */;
+		};
+		56724A472955E50E0004FA0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 56724A2B2955E50D0004FA0D /* waterAppWatch Watch App */;
+			targetProxy = 56724A462955E50E0004FA0D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		56724A4D2955E50E0004FA0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"waterAppWatch Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = waterAppWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = .watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		56724A4E2955E50E0004FA0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"waterAppWatch Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = waterAppWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = .watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		56724A4F2955E50E0004FA0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "coolone.ru.waterAppWatch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/waterAppWatch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/waterAppWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		56724A502955E50E0004FA0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "coolone.ru.waterAppWatch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/waterAppWatch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/waterAppWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		56724A512955E50E0004FA0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "coolone.ru.waterAppWatch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "waterAppWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		56724A522955E50E0004FA0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "coolone.ru.waterAppWatch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "waterAppWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
 		56ED90432952101A002E8B4C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -318,6 +680,33 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		56724A532955E50E0004FA0D /* Build configuration list for PBXNativeTarget "waterAppWatch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56724A4D2955E50E0004FA0D /* Debug */,
+				56724A4E2955E50E0004FA0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56724A542955E50E0004FA0D /* Build configuration list for PBXNativeTarget "waterAppWatch Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56724A4F2955E50E0004FA0D /* Debug */,
+				56724A502955E50E0004FA0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56724A552955E50E0004FA0D /* Build configuration list for PBXNativeTarget "waterAppWatch Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56724A512955E50E0004FA0D /* Debug */,
+				56724A522955E50E0004FA0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		56ED903229521019002E8B4C /* Build configuration list for PBXProject "waterAppSwiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
